@@ -48,7 +48,7 @@ services:
     image: docker_django_test
     stdin_open: true
     tty: true
-    volumes:
+    volumes: 
       - .:/var/www/django-dev
     ports:
       - "8000:8000"
